@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 public class ApiHelper {
 
     // URL Web App GAS kamu
-    private static final String GAS_URL = "https://script.google.com/macros/s/AKfycbxzwRGDR72R9DEk0n12E0kjuCRXfrBVDTC5uob6RGck2GNinzI2mp4wDj6nIckLTp0/exec";
+    private static final String GAS_URL = "https://script.google.com/macros/s/AKfycbzspQJ-ayaXxyKKZ6BrQEo9gKT_JpLflYUttIhth7wkcTyMZvFK-HNvlTcTs7A8PnV1/exec";
 
     public static void sendNotificationToSheet(String packageName, String title, String messageText) {
         new Thread(() -> {
