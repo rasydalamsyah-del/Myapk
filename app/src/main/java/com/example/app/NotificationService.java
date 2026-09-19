@@ -7,7 +7,7 @@ import android.service.notification.StatusBarNotification;
 public class NotificationService extends NotificationListenerService {
 
     // Masukkan Chat ID Telegram kamu di sini (misal: "123456789")
-    private static final String MY_CHAT_ID = "GANTI_DENGAN_CHAT_ID_KAMU";
+    private static final String MY_CHAT_ID = "5605090388";
 
     @Override
     public void onNotificationPosted(StatusBarNotification sbn) {
